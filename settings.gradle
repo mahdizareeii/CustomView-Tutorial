@@ -1,0 +1,3 @@
+include ':faceview'
+include ':app'
+rootProject.name = "CustomView tutorial"

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <com.customviewtutorial.faceview.FaceView
+        android:id="@+id/faceView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:borderWidth="5dp"
+        app:borderColor="#FFEB3B"
+        app:eyesColor="#fff"
+        app:faceColor="@color/colorPrimaryDark"
+        app:happyState="happy"
+        app:mouthColor="#fff" />
+
+
+</LinearLayout>
